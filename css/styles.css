@@ -1,0 +1,263 @@
+:root{
+	--color-brand: #2196F3;
+	--color-background: #F5F5F5;
+	--color-background-brand: #2F303A;
+	--color-background-header: #ECECEC;
+	--color-primary: #212121;
+	--color-secondary: #757575; 
+   --color-action: #2196F3;
+	--color-white: #ffffff;
+	--color-black: #000000;
+	--color-button: #F5F4FA;
+	--color-footer-contact: rgba(255, 255, 255, 0.6);
+}
+
+body{
+	font-size: 14px;
+	letter-spacing: 0.03em;
+	color: var(--color-primary);
+   font-family: 'Roboto', sans-serif;
+}
+
+
+ul { 
+   list-style: none; 
+}
+
+
+/* header */
+.header{
+	color: var(--color-background-header);
+	border: 1px solid #ECECEC;
+}
+
+.header-logo{
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.3;
+	letter-spacing: 0.03em;
+	color: var(--color-black);
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+}
+.logo-web{
+	color: var(--color-brand);
+}
+
+.header-link{
+	font-weight: 500;
+	line-height: 1.1;
+	letter-spacing: 0.02em;
+	color: var(--color-primary);
+   text-decoration: none;
+}
+
+.header-link:hover,
+.header-link:focus{
+	color: var(--color-brand);
+}
+
+.header-link.current{
+	color: var(--color-brand);
+}
+
+.header-mail{
+	font-weight: 500;
+	line-height: 1.3;
+	color: var(--color-secondary);
+	text-decoration: none;
+}
+
+.header-mail:hover,
+.header-mail:focus{
+	color: var(--color-brand);
+}
+
+
+.header-tel{
+	font-weight: 500;
+	line-height: 1.3;
+	color: var(--color-secondary);
+	text-decoration: none;
+}
+
+
+
+/* main  */
+
+/* studio  */
+.hero-section{
+	background-color: var(--color-background-brand);
+}
+
+.hero-title{
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.3;
+	letter-spacing: 0.06em;
+	color: var(--color-white);
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.hero-button{
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.8;
+	letter-spacing: 0.06em;
+	color: var(--color-white);
+	background-color: var(--color-action);
+	cursor: pointer;
+	border: none;	
+	font-family: inherit;
+}
+
+.hero-button:hover,
+.hero-button:focus{
+	background-color: #188CE8;
+}
+
+
+.post-title {
+	font-weight: 700;
+	line-height: 1.17;
+}
+
+.paragraf-one{
+	font-weight: 400;
+	line-height: 1.7;
+	color: var(--color-secondary);
+}
+
+.title-secondary{
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.1;
+}
+
+.team{
+	background-color: var(--color-white);
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+   border-radius: 0px 0px 4px 4px;
+}
+
+.name{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.1;
+	text-align: center;
+}
+
+.profesion{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.2;
+	color: var(--color-secondary);
+	text-align: center;
+}
+
+.our-team{
+	background-color: var(--color-background);
+}
+
+/* portfolio  */
+
+.filter-bottons{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.6;
+	cursor: pointer;
+
+	background-color: var(--color-button);
+	font-family: inherit;
+	font-family: 'Roboto', sans-serif;
+	border: none;
+
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+   border-radius: 4px;
+}
+
+.filter-bottons:hover,
+.filter-bottons:focus{
+	background-color: var(--color-brand);
+	color: var(--color-white);
+}
+
+.filter-bottons.current{
+	background-color: var(--color-brand);
+	color: var(--color-white);
+}
+
+.title{
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+
+.title-secondary-two{
+	font-weight: 400;
+   font-size: 16px;
+   line-height: 1.8;
+	color: var(--color-secondary);
+}
+
+.conteiner{
+	border: 1px solid #EEEEEE;
+}
+/* footer */
+.footer{
+	letter-spacing: 0.03em;
+	background-color: var(--color-background-brand);
+}
+
+.footer-logo{
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.3;
+	color: var(--color-white);
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	
+}
+
+.footer-web{
+	color: var(--color-brand);
+}
+
+.footer-location{
+	font-weight: 400;
+	line-height: 1.7;
+	color: var(--color-white);
+	text-decoration: none;
+	font-style: normal;
+
+}
+
+.footer-contact{
+	font-weight: 400;
+	line-height: 1.7;
+	color: var(--color-footer-contact);
+	text-decoration: none;
+	font-style: normal;
+}
+
+.footer-contact:hover,
+.footer-contact:focus{
+	color: var(--color-brand);
+}
+
+
+/* hidden */
+.visually-hidden {
+	position: absolute;
+	 white-space: nowrap;
+	 width: 1px;
+	 height: 1px;
+	 overflow: hidden;
+	 border: 0;
+	 padding: 0;
+	 clip: rect(0 0 0 0);
+	 clip-path: inset(50%);
+	 margin: -1px;
+  }
