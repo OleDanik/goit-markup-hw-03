@@ -22,6 +22,8 @@ body{
 
 ul { 
    list-style: none; 
+	padding:0px;
+	margin: 0px;
 }
 
 
@@ -86,6 +88,13 @@ ul {
 /* main  */
 
 /* studio  */
+.conteiner{
+	padding: 0px 1230px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
 .hero-section{
 	background-color: var(--color-background-brand);
 }
@@ -101,12 +110,19 @@ ul {
 }
 
 .hero-button{
+	display: inline-block;
+	padding: 10px 32px;
+	min-width: 216px;
+	min-height: 50px;
+
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.8;
 	letter-spacing: 0.06em;
+
 	color: var(--color-white);
 	background-color: var(--color-action);
+
 	cursor: pointer;
 	border: none;	
 	font-family: inherit;
